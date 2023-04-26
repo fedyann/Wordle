@@ -5,7 +5,6 @@ class Wordle:
     def __init__(self, dictionary):
         self.dictionary = dictionary
         self.answer = random.choice(self.dictionary)
-        print(self.answer)
 
     def get_answer(self):
         return self.answer
